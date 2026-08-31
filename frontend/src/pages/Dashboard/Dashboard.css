@@ -1,0 +1,200 @@
+.dashboard {
+    padding: 30px;
+}
+
+.dashboard h1 {
+    margin-bottom: 5px;
+    color: #1f2937;
+}
+
+.dashboard-subtitulo {
+    margin-bottom: 30px;
+    color: #6b7280;
+    font-size: 15px;
+}
+
+
+/* CARDS */
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.dashboard-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+
+.dashboard-card-icone {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #eff6ff;
+
+    border-radius: 12px;
+
+    font-size: 28px;
+
+    flex-shrink: 0;
+}
+
+
+.dashboard-card h2 {
+    margin: 0 0 8px;
+
+    font-size: 16px;
+
+    color: #6b7280;
+}
+
+
+.dashboard-card p {
+    margin: 0;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    color: #1f2937;
+}
+
+
+/* ESTOQUE BAIXO */
+
+.estoque-baixo {
+    margin-top: 30px;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    background-color: #fff3cd;
+
+    border: 1px solid #ffe69c;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+.estoque-baixo h2 {
+    margin-top: 0;
+
+    margin-bottom: 20px;
+
+    font-size: 20px;
+
+    color: #92400e;
+}
+
+
+.estoque-baixo p {
+    margin: 0;
+
+    color: #78350f;
+}
+
+
+.estoque-baixo ul {
+    margin: 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+
+.estoque-baixo li {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 14px 16px;
+
+    margin-bottom: 10px;
+
+    background-color: white;
+
+    border-radius: 8px;
+
+    border: 1px solid #ffe69c;
+}
+
+
+.estoque-baixo li:last-child {
+    margin-bottom: 0;
+}
+
+
+.estoque-baixo li span {
+    font-weight: 600;
+
+    color: #374151;
+}
+
+
+.estoque-baixo li strong {
+    color: #dc2626;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
+
+    .dashboard-cards {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .dashboard {
+        padding: 20px;
+    }
+
+
+    .dashboard-card {
+        padding: 20px;
+    }
+
+
+    .estoque-baixo {
+        padding: 20px;
+    }
+
+
+    .estoque-baixo li {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 5px;
+    }
+
+}

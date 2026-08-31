@@ -1,0 +1,526 @@
+/* =========================================================
+   TABELAS
+   ========================================================= */
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tabela thead {
+    background: #1e293b;
+    color: #ffffff;
+}
+
+.tabela th {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tabela td {
+    padding: 13px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+    font-size: 14px;
+}
+
+.tabela tbody tr:hover {
+    background: #f8fafc;
+}
+
+.tabela tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* =========================================================
+   BOTÃO NOVO
+   ========================================================= */
+
+.botaoNovo {
+    margin-top: 10px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 7px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botaoNovo:hover {
+    background: #1d4ed8;
+}
+
+.botaoNovo:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* =========================================================
+   FORMULÁRIO
+   ========================================================= */
+
+.formulario {
+    margin-top: 20px;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.formulario h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #1e293b;
+    font-size: 20px;
+}
+
+.formulario input,
+.formulario select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px 13px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    font-size: 14px;
+    background: #ffffff;
+    color: #374151;
+}
+
+.formulario input:focus,
+.formulario select:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+}
+
+
+/* =========================================================
+   BOTÃO SALVAR
+   ========================================================= */
+
+.botaoSalvar {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 7px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botaoSalvar:hover {
+    background: #1d4ed8;
+}
+
+.botaoSalvar:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* =========================================================
+   BOTÃO EDITAR
+   ========================================================= */
+
+.botaoEditar {
+    padding: 7px 12px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 6px;
+    background: #f59e0b;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoEditar:hover {
+    background: #d97706;
+}
+
+
+/* =========================================================
+   BOTÃO EXCLUIR
+   ========================================================= */
+
+.botaoExcluir {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #dc2626;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoExcluir:hover {
+    background: #b91c1c;
+}
+
+
+/* =========================================================
+   BOTÃO ESTOQUE
+   ========================================================= */
+
+.botaoEstoque {
+    padding: 7px 12px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 6px;
+    background: #16a34a;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoEstoque:hover {
+    background: #15803d;
+}
+
+
+/* =========================================================
+   BOTÃO CANCELAR
+   ========================================================= */
+
+.botaoCancelar {
+    margin-left: 8px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 7px;
+    background: #6b7280;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoCancelar:hover {
+    background: #4b5563;
+}
+
+
+/* =========================================================
+   BOTÃO FECHAR
+   ========================================================= */
+
+.botaoFechar {
+    margin-top: 15px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 7px;
+    background: #6b7280;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoFechar:hover {
+    background: #4b5563;
+}
+
+
+/* =========================================================
+   AÇÕES DA TABELA
+   ========================================================= */
+
+.acoesTabela {
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   MENSAGENS
+   ========================================================= */
+
+.mensagem {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 12px 16px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mensagem.sucesso {
+    background: #dcfce7;
+    color: #166534;
+    border: 1px solid #86efac;
+}
+
+.mensagem.erro {
+    background: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fca5a5;
+}
+
+
+/* =========================================================
+   CARREGANDO
+   ========================================================= */
+
+.carregando {
+    margin-top: 25px;
+    padding: 20px;
+    text-align: center;
+    color: #6b7280;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   CONTROLE DE ESTOQUE
+   ========================================================= */
+
+.painelEstoque {
+    margin-top: 20px;
+}
+
+.informacaoEstoque {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.produtoEstoque,
+.quantidadeEstoque {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.produtoEstoque span,
+.quantidadeEstoque span {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.produtoEstoque strong {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.quantidadeEstoque strong {
+    font-size: 28px;
+    color: #2563eb;
+}
+
+.quantidadeEstoque small {
+    color: #6b7280;
+}
+
+.campoMovimentacao {
+    margin-bottom: 20px;
+}
+
+.campoMovimentacao label {
+    display: block;
+    margin-bottom: 8px;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.campoMovimentacao input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px 13px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.campoMovimentacao input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.acoesEstoque {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* =========================================================
+   BOTÃO ENTRADA
+   ========================================================= */
+
+.botaoEntrada {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 7px;
+    background: #16a34a;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoEntrada:hover {
+    background: #15803d;
+}
+
+
+/* =========================================================
+   BOTÃO SAÍDA
+   ========================================================= */
+
+.botaoSaida {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 7px;
+    background: #dc2626;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoSaida:hover {
+    background: #b91c1c;
+}
+
+
+/* =========================================================
+   MOVIMENTAÇÕES
+   ========================================================= */
+
+.tipoMovimentacao {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* Entrada */
+
+.tipoEntrada {
+    background: #dcfce7;
+    color: #166534;
+    border: 1px solid #86efac;
+}
+
+
+/* Saída */
+
+.tipoSaida {
+    background: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fca5a5;
+}
+
+
+/* Quantidade */
+
+.quantidadeMovimentacao {
+    font-size: 17px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-right: 5px;
+}
+
+.unidadeMovimentacao {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+
+/* Data */
+
+.dataMovimentacao {
+    color: #4b5563;
+    font-size: 14px;
+}
+
+
+/* Tabela vazia */
+
+.tabelaVazia {
+    text-align: center;
+    padding: 35px !important;
+    color: #6b7280;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   BOTÕES DAS TABELAS SEM CLASSE
+   Fornecedores e Relacionamentos
+   ========================================================= */
+
+.tabela td button {
+    padding: 7px 12px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.tabela td button:hover {
+    background: #1d4ed8;
+}
+
+.tabela td button:last-child {
+    background: #dc2626;
+}
+
+.tabela td button:last-child:hover {
+    background: #b91c1c;
+}
+
+.tabela td button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .tabela {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .informacaoEstoque {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .acoesEstoque {
+        flex-direction: column;
+    }
+
+    .botaoEntrada,
+    .botaoSaida {
+        width: 100%;
+    }
+}

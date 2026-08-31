@@ -1,0 +1,92 @@
+.header {
+    height: 70px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    padding: 0 25px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    margin-bottom: 30px;
+
+    border: 1px solid #e5e7eb;
+}
+
+
+/* TÍTULO */
+
+.header h2 {
+    margin: 0;
+
+    color: #1f2937;
+
+    font-size: 20px;
+}
+
+
+/* ÁREA DOS ÍCONES */
+
+.header-right {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    font-size: 23px;
+
+    color: #6b7280;
+}
+
+
+/* ÍCONES */
+
+.header-right svg {
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+/* EFEITO AO PASSAR O MOUSE */
+
+.header-right svg:hover {
+    color: #2563eb;
+
+    transform: scale(1.08);
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+
+    .header {
+        height: 60px;
+
+        padding: 0 15px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .header h2 {
+        font-size: 17px;
+    }
+
+
+    .header-right {
+        gap: 12px;
+
+        font-size: 20px;
+    }
+
+}

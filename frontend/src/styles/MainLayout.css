@@ -1,0 +1,40 @@
+.layout {
+    display: flex;
+
+    min-height: 100vh;
+
+    width: 100%;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+
+.content {
+    flex: 1;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    background-color: #f5f7fa;
+}
+
+
+/* TÍTULOS DAS PÁGINAS */
+
+.content h1 {
+    color: #1f2937;
+
+    margin-bottom: 20px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .content {
+        padding: 20px;
+    }
+
+}
