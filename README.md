@@ -106,6 +106,7 @@ Backend (Node.js + Express)
        │
        ▼
 Banco de dados SQLite
+```
 
 ---
 
