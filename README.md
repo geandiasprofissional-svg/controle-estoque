@@ -106,3 +106,27 @@ Backend (Node.js + Express)
        │
        ▼
 Banco de dados SQLite
+
+---
+
+## 🖥️ Screenshots
+
+### 📊 Dashboard
+
+![Dashboard](screenshots/Dashboard.png)
+
+### 📦 Produtos
+
+![Produtos](screenshots/Produtos.png)
+
+### 🏢 Fornecedores
+
+![Fornecedores](screenshots/Fornecedores.png)
+
+### 🔗 Relacionamentos
+
+![Relacionamentos](screenshots/Relacionamentos.png)
+
+### 📈 Movimentações
+
+![Movimentações](screenshots/Movimentações.png)
