@@ -107,6 +107,31 @@ Backend (Node.js + Express)
        ▼
 Banco de dados SQLite
 ```
+
+---
+
+## 📁 Estrutura do projeto
+
+```text
+controle-estoque/
+├── backend/
+│   ├── controllers/
+│   ├── database/
+│   ├── models/
+│   └── routes/
+├── frontend/
+│   └── src/
+│       ├── components/
+│       ├── layouts/
+│       ├── pages/
+│       ├── routes/
+│       ├── services/
+│       └── styles/
+├── screenshots/
+├── .gitignore
+└── README.md
+```
+
 ---
 
 ## ▶️ Como executar o projeto
