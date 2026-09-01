@@ -107,7 +107,50 @@ Backend (Node.js + Express)
        ▼
 Banco de dados SQLite
 ```
+---
 
+## ▶️ Como executar o projeto
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/geandiasprofissional-svg/controle-estoque.git
+cd controle-estoque
+```
+
+### 2. Executar o Backend
+
+Abra um terminal:
+
+```bash
+cd backend
+npm install
+node app.js
+```
+
+O backend será executado na porta `3000`.
+
+### 3. Executar o Frontend
+
+Abra outro terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+O Vite exibirá no terminal o endereço local para acessar a aplicação.
+
+### 4. Acessar o sistema
+
+Abra no navegador o endereço informado pelo Vite, normalmente:
+
+```text
+http://localhost:5173
+```
+
+> Caso a porta 5173 esteja ocupada, o Vite poderá utilizar outra porta, como `5174`.
 ---
 
 ## 🖥️ Screenshots
