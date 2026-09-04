@@ -39,3 +39,9 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Arquivos do DB Browser for SQLite
+*.sqbpro
+
+# Bancos de dados locais (garantia extra)
+backend/database/*.db
