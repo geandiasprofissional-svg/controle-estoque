@@ -4,6 +4,12 @@ Sistema web Full Stack para gerenciamento de estoque, desenvolvido como Projeto 
 
 A aplicação permite gerenciar produtos e fornecedores, estabelecer relacionamentos entre eles, acompanhar o estoque e registrar movimentações de entrada e saída por meio de uma API REST.
 
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+
 ---
 
 ## 🔗 Demonstração
@@ -16,6 +22,8 @@ Acesse o sistema funcionando:
 > ⚠️ O backend está hospedado no plano gratuito do Render, que "dorme" após um período de inatividade. A primeira requisição após um tempo sem uso pode levar de 20 a 50 segundos para responder — isso é uma limitação do plano gratuito, não um erro da aplicação.
 >
 > Os dados exibidos são de demonstração, gerados automaticamente para fins de apresentação.
+
+---
 
 ## 🚀 Funcionalidades
 
@@ -91,8 +99,13 @@ Acesse o sistema funcionando:
 - Node.js
 - Express
 - CORS
-- SQLite
-- sqlite3
+- SQLite (banco de dados)
+- sqlite3 (driver Node.js)
+
+### Deploy
+
+- Vercel (frontend)
+- Render (backend)
 
 ### Ferramentas
 
@@ -187,6 +200,7 @@ http://localhost:5173
 ```
 
 > Caso a porta 5173 esteja ocupada, o Vite poderá utilizar outra porta, como `5174`.
+
 ---
 
 ## 🖥️ Screenshots
@@ -209,7 +223,13 @@ http://localhost:5173
 
 ### 📈 Movimentações
 
-![Movimentações](screenshots/Movimentações.png)
+![Movimentações](screenshots/Movimentacoes.png)
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
 
 ---
 
