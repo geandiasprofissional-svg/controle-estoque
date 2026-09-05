@@ -6,6 +6,17 @@ A aplicação permite gerenciar produtos e fornecedores, estabelecer relacioname
 
 ---
 
+## 🔗 Demonstração
+
+Acesse o sistema funcionando:
+
+**Frontend:** https://controle-estoque-murex.vercel.app
+**Backend (API):** https://controle-estoque-gyvc.onrender.com
+
+> ⚠️ O backend está hospedado no plano gratuito do Render, que "dorme" após um período de inatividade. A primeira requisição após um tempo sem uso pode levar de 20 a 50 segundos para responder — isso é uma limitação do plano gratuito, não um erro da aplicação.
+>
+> Os dados exibidos são de demonstração, gerados automaticamente para fins de apresentação.
+
 ## 🚀 Funcionalidades
 
 ### 📊 Dashboard
@@ -199,3 +210,12 @@ http://localhost:5173
 ### 📈 Movimentações
 
 ![Movimentações](screenshots/Movimentações.png)
+
+---
+
+## 👤 Autor
+
+Gean Dias Ferreira
+Estudante de Análise e Desenvolvimento de Sistemas
+
+[LinkedIn](https://www.linkedin.com/in/geandias) · [GitHub](https://github.com/geandiasprofissional-svg)
