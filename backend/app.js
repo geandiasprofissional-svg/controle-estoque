@@ -3,6 +3,9 @@ const cors = require("cors");
 
 require("./database/createTables");
 
+const seedDatabase = require("./database/seed");
+seedDatabase();
+
 const produtoRoutes = require("./routes/ProdutoRoutes");
 const movimentacaoRoutes = require("./routes/MovimentacaoRoutes");
 const fornecedorRoutes = require("./routes/FornecedorRoutes");
